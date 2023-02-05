@@ -1,6 +1,6 @@
 #include "easy_list.h"
 
-void itc_vector_index_list(const std::vector<int> &mass, std::vector<int> &mass2){
+void itc_even_index_list(const std::vector<int> &mass, std::vector<int> &mass2){
     for(int i=0; i<mass.size(); i+=2){
         mass2.push_back(mass[i]);
     }
