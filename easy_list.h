@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void itc_vector_index_list(const std::vector<int> &mass, std::vector<int> &mass2);
+void itc_even_index_list(const std::vector<int> &mass, std::vector<int> &mass2);
 void itc_even_parts_list(const std::vector<int> &mass, std::vector<int> &mass2);
 int itc_positive_list(const std::vector<int> &mass);
 int itc_sl_list(const std::vector<int> &mass);
